@@ -115,9 +115,9 @@
         extend_layer {
             label = "Extend";
             bindings = <
-            &kp ESC &kp C_PREV &kp C_PP &kp C_NEXT &kp C_VOL_UP     &kp LA(N1) &kp LA(N2) &kp LA(N3) &kp LA(N4) &kp LA(N9) 
-            &sk LALT &sk LGUI &sk LSHIFT &sk LCTRL &kp C_VOL_DN     &kp LEFT &kp DOWN &kp UP &kp RIGHT &kp DEL
-            &kp LC(Z) &kp LC(X) &kp LC(C) &kp TAB  &kp LC(V)        &kp LC(BSPC) &kp BSPC &trans &trans &kp INS
+            &kp ESC &kp C_PREV &kp C_PP &kp C_NEXT &trans           &kp LA(N1) &kp LA(N2) &kp LA(N3) &kp LA(N4) &kp LA(N9) 
+            &sk LALT &sk LGUI &sk LSHIFT &sk LCTRL &trans           &kp LEFT &kp DOWN &kp UP &kp RIGHT &kp DEL
+            &kp LC(Z) &kp LC(X) &kp LC(C) &kp TAB  &kp LC(V)        &kp LC(BSPC) &kp BSPC &kp C_VOL_DN &kp C_VOL_UP &kp INS
                                                 &trans &kp LCTRL    &kp ENTER &mo FNC 
             >;
         };
